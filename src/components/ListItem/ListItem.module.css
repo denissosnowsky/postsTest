@@ -1,0 +1,49 @@
+.row {
+  height: fit-content;
+  width: 90%;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.wrapper {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  border: 0px !important;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 400;
+  width: fit-content!important;
+  color: #0d6efd;
+  margin-bottom: 20px;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.body{
+    padding-left: 40px!important;
+    padding-right: 40px!important;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.headerButtons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70px;
+    font-size: 25px;
+}
+
+.headerButtons i{
+    margin: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.header::after {
+  height: 1px;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.125);
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.secBtn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
